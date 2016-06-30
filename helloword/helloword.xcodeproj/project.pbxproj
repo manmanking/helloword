@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54EF192D1D24E30C00DC7646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF192C1D24E30C00DC7646 /* main.m */; };
+		54EF19301D24E30C00DC7646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF192F1D24E30C00DC7646 /* AppDelegate.m */; };
+		54EF19331D24E30C00DC7646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF19321D24E30C00DC7646 /* ViewController.m */; };
+		54EF19361D24E30C00DC7646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EF19341D24E30C00DC7646 /* Main.storyboard */; };
+		54EF19391D24E30C00DC7646 /* helloword.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54EF19371D24E30C00DC7646 /* helloword.xcdatamodeld */; };
+		54EF193B1D24E30C00DC7646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EF193A1D24E30C00DC7646 /* Assets.xcassets */; };
+		54EF193E1D24E30C00DC7646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EF193C1D24E30C00DC7646 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54EF19281D24E30C00DC7646 /* helloword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EF192C1D24E30C00DC7646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54EF192E1D24E30C00DC7646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54EF192F1D24E30C00DC7646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54EF19311D24E30C00DC7646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54EF19321D24E30C00DC7646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54EF19351D24E30C00DC7646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54EF19381D24E30C00DC7646 /* helloword.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = helloword.xcdatamodel; sourceTree = "<group>"; };
+		54EF193A1D24E30C00DC7646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54EF193D1D24E30C00DC7646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54EF193F1D24E30C00DC7646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54EF19251D24E30C00DC7646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54EF191F1D24E30C00DC7646 = {
+			isa = PBXGroup;
+			children = (
+				54EF192A1D24E30C00DC7646 /* helloword */,
+				54EF19291D24E30C00DC7646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54EF19291D24E30C00DC7646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54EF19281D24E30C00DC7646 /* helloword.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54EF192A1D24E30C00DC7646 /* helloword */ = {
+			isa = PBXGroup;
+			children = (
+				54EF192E1D24E30C00DC7646 /* AppDelegate.h */,
+				54EF192F1D24E30C00DC7646 /* AppDelegate.m */,
+				54EF19311D24E30C00DC7646 /* ViewController.h */,
+				54EF19321D24E30C00DC7646 /* ViewController.m */,
+				54EF19341D24E30C00DC7646 /* Main.storyboard */,
+				54EF193A1D24E30C00DC7646 /* Assets.xcassets */,
+				54EF193C1D24E30C00DC7646 /* LaunchScreen.storyboard */,
+				54EF193F1D24E30C00DC7646 /* Info.plist */,
+				54EF19371D24E30C00DC7646 /* helloword.xcdatamodeld */,
+				54EF192B1D24E30C00DC7646 /* Supporting Files */,
+			);
+			path = helloword;
+			sourceTree = "<group>";
+		};
+		54EF192B1D24E30C00DC7646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54EF192C1D24E30C00DC7646 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54EF19271D24E30C00DC7646 /* helloword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EF19421D24E30C00DC7646 /* Build configuration list for PBXNativeTarget "helloword" */;
+			buildPhases = (
+				54EF19241D24E30C00DC7646 /* Sources */,
+				54EF19251D24E30C00DC7646 /* Frameworks */,
+				54EF19261D24E30C00DC7646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloword;
+			productName = helloword;
+			productReference = 54EF19281D24E30C00DC7646 /* helloword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54EF19201D24E30C00DC7646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cad;
+				TargetAttributes = {
+					54EF19271D24E30C00DC7646 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 54EF19231D24E30C00DC7646 /* Build configuration list for PBXProject "helloword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54EF191F1D24E30C00DC7646;
+			productRefGroup = 54EF19291D24E30C00DC7646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54EF19271D24E30C00DC7646 /* helloword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54EF19261D24E30C00DC7646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EF193E1D24E30C00DC7646 /* LaunchScreen.storyboard in Resources */,
+				54EF193B1D24E30C00DC7646 /* Assets.xcassets in Resources */,
+				54EF19361D24E30C00DC7646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54EF19241D24E30C00DC7646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EF19331D24E30C00DC7646 /* ViewController.m in Sources */,
+				54EF19301D24E30C00DC7646 /* AppDelegate.m in Sources */,
+				54EF19391D24E30C00DC7646 /* helloword.xcdatamodeld in Sources */,
+				54EF192D1D24E30C00DC7646 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54EF19341D24E30C00DC7646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EF19351D24E30C00DC7646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54EF193C1D24E30C00DC7646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EF193D1D24E30C00DC7646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54EF19401D24E30C00DC7646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54EF19411D24E30C00DC7646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54EF19431D24E30C00DC7646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = helloword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.press.helloword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54EF19441D24E30C00DC7646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = helloword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.press.helloword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54EF19231D24E30C00DC7646 /* Build configuration list for PBXProject "helloword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EF19401D24E30C00DC7646 /* Debug */,
+				54EF19411D24E30C00DC7646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EF19421D24E30C00DC7646 /* Build configuration list for PBXNativeTarget "helloword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EF19431D24E30C00DC7646 /* Debug */,
+				54EF19441D24E30C00DC7646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54EF19371D24E30C00DC7646 /* helloword.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54EF19381D24E30C00DC7646 /* helloword.xcdatamodel */,
+			);
+			currentVersion = 54EF19381D24E30C00DC7646 /* helloword.xcdatamodel */;
+			path = helloword.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54EF19201D24E30C00DC7646 /* Project object */;
+}
